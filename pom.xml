@@ -48,7 +48,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!--commons-->
-        <commons.lang3.version>3.14.0</commons.lang3.version>
+        <commons.lang3.version>3.16.0</commons.lang3.version>
         <commons.fileupload.version>1.4</commons.fileupload.version>
         <commons.io.version>2.11.0</commons.io.version>
         <commons.math.version>3.6.1</commons.math.version>
@@ -60,9 +60,9 @@
 
         <guava.version>31.1-jre</guava.version>
         <!--        <okhttp.version>3.14.9</okhttp.version>-->
-        <fastjson.version>2.0.50</fastjson.version>
+        <fastjson.version>2.0.52</fastjson.version>
         <gson.version>2.10.1</gson.version>
-        <hutool.version>5.8.26</hutool.version>
+        <hutool.version>5.8.31</hutool.version>
     </properties>
     <dependencies>
         <dependency>
@@ -136,7 +136,7 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.5.5</version>
+            <version>3.5.7</version>
         </dependency>
 
         <dependency>
@@ -188,26 +188,26 @@
         <dependency>
             <groupId>cn.dev33</groupId>
             <artifactId>sa-token-spring-boot3-starter</artifactId>
-            <version>1.37.0</version>
+            <version>1.38.0</version>
         </dependency>
         <!-- Sa-Token 整合 SpringAOP 实现注解鉴权 -->
         <dependency>
             <groupId>cn.dev33</groupId>
             <artifactId>sa-token-spring-aop</artifactId>
-            <version>1.37.0</version>
+            <version>1.38.0</version>
         </dependency>
 
         <!-- Sa-Token 整合 jwt -->
         <dependency>
             <groupId>cn.dev33</groupId>
             <artifactId>sa-token-jwt</artifactId>
-            <version>1.37.0</version>
+            <version>1.38.0</version>
         </dependency>
         <!-- Sa-Token 整合 Redis （使用 jackson 序列化方式） -->
         <dependency>
             <groupId>cn.dev33</groupId>
             <artifactId>sa-token-redis-jackson</artifactId>
-            <version>1.37.0</version>
+            <version>1.38.0</version>
         </dependency>
         <!-- 提供Redis连接池 -->
         <dependency>
@@ -222,7 +222,7 @@
         <dependency>
             <groupId>com.github.seancfoley</groupId>
             <artifactId>ipaddress</artifactId>
-            <version>5.4.2</version>
+            <version>5.5.0</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
