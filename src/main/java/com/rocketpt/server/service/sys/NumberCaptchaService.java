@@ -45,7 +45,7 @@ public class NumberCaptchaService implements CaptchaService {
         if (StringUtils.isBlank(uuid)) {
             throw new RocketPTException(FAIL, "uuid不能为空");
         }
-        String number = RandomUtil.randomNumbers(6);
+        String number = RandomUtil.randomNumbers(4);
         cache.put(uuid, number);
         return number;
     }

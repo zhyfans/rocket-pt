@@ -46,7 +46,7 @@ public class SysConfigService {
         //调试时关闭，加快调试流程
         Integer defaultCaptchaEnable = 0;
 
-        String key = "captcha_enable";
+        String key = "captcha_captcha";
 
         return systemConfigService.getIntOrDefault(key, defaultCaptchaEnable) == 1;
     }

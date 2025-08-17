@@ -6,7 +6,7 @@ spring:
   application:
     name: rocket-pt
   profiles:
-    active: n
+    active: local
   main:
     allow-circular-references: true
   data:
